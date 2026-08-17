@@ -1,0 +1,45 @@
+[
+    {
+        "complaint_id": "COMP-00001",
+        "timestamp": "2026-08-16T02:06:35",
+        "complaint": "There is a large garbage pile near Sitabuldi Metro Station",
+        "category": "Waste Management",
+        "severity": "Medium",
+        "urgency_score": 50,
+        "summary": "A large garbage pile is located near Sitabuldi Metro Station.",
+        "recommended_department": "Sanitation Department",
+        "possible_duplicate": false,
+        "duplicate_score": 0.0,
+        "matched_complaint_id": null
+    },
+    {
+        "complaint_id": "COMP-00002",
+        "timestamp": "2026-08-16T02:07:24",
+        "complaint": "There is a large garbage pile near Sitabuldi Metro Station",
+        "category": "Waste Management",
+        "severity": "Medium",
+        "urgency_score": 50,
+        "summary": "Large garbage pile near Sitabuldi Metro Station.",
+        "recommended_department": "Sanitation Department",
+        "possible_duplicate": true,
+        "duplicate_score": 1.0,
+        "matched_complaint_id": "COMP-00001"
+    },
+    {
+        "complaint_id": "COMP-00003",
+        "timestamp": "2026-08-16T02:29:29",
+        "complaint": "There is a large garbage pile near Sitabuldi Metro Station",
+        "location": {
+            "latitude": 21.14145,
+            "longitude": 79.08248
+        },
+        "category": "Illegal Dumping",
+        "severity": "Medium",
+        "urgency_score": 50,
+        "summary": "A large garbage pile near Sitabuldi Metro Station.",
+        "recommended_department": "Waste Management",
+        "possible_duplicate": true,
+        "duplicate_score": 1.0,
+        "matched_complaint_id": "COMP-00001"
+    }
+]
