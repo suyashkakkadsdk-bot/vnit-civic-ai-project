@@ -1,6 +1,0 @@
-{
-  "name": "Nagar Mitra",
-  "description": "NAGAR MITRA — AI-powered civic issue reporting, automated multi-modal verification, and municipal operations resolution platform.",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
