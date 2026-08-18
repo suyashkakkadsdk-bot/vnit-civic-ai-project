@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏛️ Smart Civic AI
 
-# Run and deploy your AI Studio app
+AI-powered civic complaint analysis system.
 
-This contains everything you need to run your app locally.
+## 🔄 System Flow
 
-View your app in AI Studio: https://ai.studio/apps/7267f639-2099-4147-a1ac-13f57b2adc0e
+Citizen Complaint
+        ↓
+📝 Text Analysis
+        ↓
+🖼️ Image Analysis
+        ↓
+📍 Location Capture
+        ↓
+🔁 Duplicate Detection
+        ↓
+🚨 Urgency Scoring
+        ↓
+🏢 Recommended Department
+        ↓
+💾 Civic Issue Record
 
-## Run Locally
+## ✨ Current Features
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- AI-based complaint analysis
+- Image-based civic problem detection
+- Severity classification
+- Urgency score (0–100)
+- Duplicate complaint detection
+- Complaint location using latitude & longitude
+- Recommended department
+- Complaint data storage in JSON
